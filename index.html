@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>First Page</title>
+	</head>
+	<style type="text/css">
+		body {
+			font-family: cambria;
+			color: #008080;
+		}
+		h1 {
+			text-align: center;
+		}
+		section {
+			font-size: 20px;
+			margin-left: 30%;
+		}
+		input[type=submit] {
+			width: 320px;
+			height: 43px;
+			font-size: 20;
+		}
+ 	</style>
+	<body>
+		<header>
+			<hr>
+			<h1>Silicon Vadai Services</h1>
+			<hr>
+		</header>
+		<section>
+			<h4>If you are a new user click on New User button<br>If you are a existing user click on Existing User<br></h4>
+			<form action="user.do" method="POST">
+				<input type="submit" value="New User" name="btn"><br>
+			</form>
+			<form action="user.do" method="POST">
+				<input type="submit" value="Existing User" name="btn">
+			</form>
+		</section>
+	</body>
+</html>
